@@ -1,0 +1,133 @@
+{
+    "dependencies": [
+        {
+            "id": 1,
+            "name": "spring-boot-starter-web",
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-web"
+        },
+        {
+            "id": 2,
+            "name": "spring-boot-starter-data-jpa",
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-data-jpa"
+        },
+        {
+            "id": 3,
+            "name": "spring-boot-starter-validation",
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-validation"
+        },
+        {
+            "id": 4,
+            "name": "spring-boot-devtools",
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-devtools",
+            "scope": "runtime",
+            "optional": true
+        },
+        {
+            "id": 5,
+            "name": "mysql-connector-j",
+            "groupId": "com.mysql",
+            "artifactId": "mysql-connector-j",
+            "scope": "runtime"
+        },
+        {
+            "id": 6,
+            "name": "lombok",
+            "groupId": "org.projectlombok",
+            "artifactId": "lombok",
+            "optional": true
+        },
+        {
+            "id": 7,
+            "name": "spring-boot-starter-webflux",
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-webflux"
+        },
+        {
+            "id": 8,
+            "name": "spring-kafka",
+            "groupId": "org.springframework.kafka",
+            "artifactId": "spring-kafka"
+        },
+        {
+            "id": 9,
+            "name": "spring-kafka-test",
+            "groupId": "org.springframework.kafka",
+            "artifactId": "spring-kafka-test",
+            "scope": "test"
+        },
+        {
+            "id": 10,
+            "name": "spring-boot-starter-test",
+            "groupId": "org.springframework.boot",
+            "artifactId": "spring-boot-starter-test",
+            "scope": "test",
+            "exclusions": {
+                "exclusion": {
+                    "groupId": "org.junit.vintage",
+                    "artifactId": "junit-vintage-engine"
+                }
+            }
+        },
+        {
+            "id": 11,
+            "name": "junit-jupiter-engine",
+            "groupId": "org.junit.jupiter",
+            "artifactId": "junit-jupiter-engine",
+            "scope": "test"
+        },
+        {
+            "id": 12,
+            "name": "mockito-core",
+            "groupId": "org.mockito",
+            "artifactId": "mockito-core",
+            "scope": "test"
+        },
+        {
+            "id": 13,
+            "name": "h2",
+            "groupId": "com.h2database",
+            "artifactId": "h2",
+            "scope": "test"
+        },
+        {
+            "id": 14,
+            "name": "jackson-core",
+            "groupId": "com.fasterxml.jackson.core",
+            "artifactId": "jackson-core",
+            "version": "2.15.2"
+        },
+        {
+            "id": 15,
+            "name": "jackson-dataformat-xml",
+            "groupId": "com.fasterxml.jackson.dataformat",
+            "artifactId": "jackson-dataformat-xml",
+            "version": "2.15.2"
+        },
+        {
+            "id": 16,
+            "name": "jackson-databind",
+            "groupId": "com.fasterxml.jackson.core",
+            "artifactId": "jackson-databind",
+            "version": "2.15.2"
+        },
+        {
+            "id": 17,
+            "name": "modelmapper",
+            "groupId": "org.modelmapper",
+            "artifactId": "modelmapper",
+            "version": "3.1.1"
+        },
+        {
+            "id": 18,
+            "name": "bean-matchers",
+            "groupId": "com.google.code.bean-matchers",
+            "artifactId": "bean-matchers",
+            "version": "0.14",
+            "scope": "test"
+        }
+    ]
+}
